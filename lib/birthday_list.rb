@@ -1,7 +1,14 @@
 def add_name(name)
-  return name
+  name
 end
 
 def add_date(date)
-  return date
+  date
+end
+
+def bring_together
+  storage = ""
+  storage << add_name('Joe')
+#  storage << add_date('01/01/1990')
+  storage
 end
