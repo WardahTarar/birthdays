@@ -1,14 +1,12 @@
-def add_name(name)
-  name
-end
-
-def add_date(date)
-  date
-end
-
-def bring_together
-  storage = ""
-  storage << add_name('Joe')
-#  storage << add_date('01/01/1990')
-  storage
+class BirthdayList
+  attr_accessor :list
+  
+  def initialize
+    @list = []
+  end
+  
+  def store(name,date)
+    list << {name => date}
+    list
+  end
 end
