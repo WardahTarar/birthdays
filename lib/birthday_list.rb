@@ -7,10 +7,10 @@ class BirthdayList
 
   def store(name,date)
      @list << {name => date}
-     @list
+  end
+
+  def display
+    @list
   end
 
 end
-
-test123
-
