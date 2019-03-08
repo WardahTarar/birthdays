@@ -9,4 +9,8 @@ class BirthdayList
      @list << {name => date}
      @list
   end
+
 end
+
+test
+
